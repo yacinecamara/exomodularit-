@@ -6,7 +6,7 @@ do {
     printf ("saisir x et y:\n");
     scanf ("%d%d", &x,&y);
 }
-while (x<0 && y<0 || x==y);
+while (x<0 || y<0 || x==y);
 c= max (x,y);
  printf ("afficher %d\n", c);
    
